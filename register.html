@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar | Jobless</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar-black"></div>
+        <nav class="main-nav">
+            <div class="logo-container">
+                <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/ae4d23845df4c40da47b688c16dfb0d7c4f8f316/asset/Image%201.png" alt="Logo Jobless">
+                <h1>Jobless</h1>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <div class="illustration-column">
+           <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/ae4d23845df4c40da47b688c16dfb0d7c4f8f316/asset/Image%202.png" alt="Gambar Latihan 2">
+        </div>
+
+        <div class="form-column">
+            <h2>Sign up</h2>
+            <p class="subtext">Let's get you all set up so you can access your personal account.</p>
+
+            <form action="login.html">
+                <div class="form-group-row">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Rio" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Febrian" required>
+                    </div>
+                </div>
+
+                <div class="form-group-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john.doe@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="081234567890" required>
+                    </div>
+                </div>
+
+                <div class="form-group password-input-wrapper">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Masukkan Password" required>
+                    <button type="button" class="toggle-password">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="form-group password-input-wrapper" style="margin-top: 25px;">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Masukkan Password" required>
+                    <button type="button" class="toggle-password">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="terms-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to all the <a href="#">Terms</a> and <a href="#">Privacy Policies</a></label>
+                </div>
+
+                <button type="submit" class="submit-btn">Create account</button>
+            </form>
+
+            <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+
+            <div class="divider">
+                <span>Or Sign up with</span>
+            </div>
+
+            <div class="social-login-group">
+                <button type="button" class="social-btn">
+                    <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/19968a20984498e13c68bb23be84ebbfcac65cc3/asset/Image%203.png" alt="Facebook Login">
+                </button>
+                <button type="button" class="social-btn">
+                    <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/19968a20984498e13c68bb23be84ebbfcac65cc3/asset/Image%204.png" alt="Google Login">
+                </button>
+                <button type="button" class="social-btn">
+                    <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/19968a20984498e13c68bb23be84ebbfcac65cc3/asset/Image%205.png" alt="GitHub Login">
+                </button>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>

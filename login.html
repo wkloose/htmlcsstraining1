@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Jobless</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar-black"></div>
+        <nav class="main-nav nav-left">
+            <div class="logo-container">
+                <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/ae4d23845df4c40da47b688c16dfb0d7c4f8f316/asset/Image%201.png" alt="Logo Jobless">
+                <h1>Jobless</h1>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        
+        <div class="form-column">
+            <h2>Login</h2>
+            <p class="subtext">Login to access your jobless account</p>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="john.doe@gmail.com" required>
+                </div>
+
+                <div class="form-group password-input-wrapper">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Masukkan Password" required>
+                    <button type="button" class="toggle-password">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="form-extras">
+                    <div class="remember-group">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-password-link">Forgot Password</a>
+                </div>
+
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+
+            <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+
+            <div class="divider">
+                <span>Or login with</span>
+            </div>
+
+            <div class="social-login-group">
+                <button type="button" class="social-btn">
+                    <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/19968a20984498e13c68bb23be84ebbfcac65cc3/asset/Image%203.png" alt="Facebook Login">
+                </button>
+                <button type="button" class="social-btn">
+                    <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/19968a20984498e13c68bb23be84ebbfcac65cc3/asset/Image%204.png" alt="Google Login">
+                </button>
+                <button type="button" class="social-btn">
+                    <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/19968a20984498e13c68bb23be84ebbfcac65cc3/asset/Image%205.png" alt="GitHub Login">
+                </button>
+            </div>
+        </div>
+
+        <div class="illustration-column">
+            <img src="https://raw.githubusercontent.com/wkloose/htmlcsstraining1/ae4d23845df4c40da47b688c16dfb0d7c4f8f316/asset/Image%202.png" alt="Ilustrasi Login">
+        </div>
+
+    </main>
+
+</body>
+</html>
